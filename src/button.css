@@ -1,0 +1,14 @@
+button{
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: aquamarine;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(69, 243, 6);
+    padding: 13px;
+    font-weight: bold;
+}

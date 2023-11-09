@@ -1,0 +1,108 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  body{
+    background-image: url(/public/programming_bg.jpg);
+  }
+  
+  .todo_app {
+    text-align: center;
+    border: 1px solid black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: auto;
+    background: linear-gradient(to bottom, rgba(255, 251, 251, 0.15),rgba(255,255,255,0.15));
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+  }
+  
+  .title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    color: aliceblue;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+    border-radius: 18px;
+  }
+  
+  .add_btn {
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    background-color: rgb(169, 255, 191);
+    transition: all 200ms;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .add_btn:hover {
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: rgb(43, 131, 102);
+  }
+  
+  ul {
+    list-style: none;
+    text-align: left;
+    color: aliceblue;
+  }
+  
+  li {
+    margin-top: 10px;
+  }
+  
+  .delet_btn {
+    color: white;
+    margin-left: 15px;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+  }
+  
+  .delet_btn:hover {
+    color: red;
+  }
+  
+  .logo{
+    margin-bottom: 7px;
+  }
+  
+  .submit_edit{
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+    transition: all 200ms;
+  }
+  
+  .submit_edit:hover{
+    background-color: red;
+    color: white;
+  }
+  
+  .edit{
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+    transition: all 200ms;
+  }
+  
+  .edit:hover{
+    background-color: red;
+    color: white;
+  }
